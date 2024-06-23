@@ -88,9 +88,10 @@ public class AppConfig {
 	                cfg.setAllowedOrigins(Arrays.asList(
 	                    "http://localhost:3000",
 	                    "http://localhost:5173",
-						"http://localhost:5174",
+			    "http://localhost:5174",
 	                    "http://localhost:4200",
-							"https://cryptosphere-umber.vercel.app"
+			   "https://cryptosphere-umber.vercel.app",
+			    "http://crypto-sphere.s3-website.eu-north-1.amazonaws.com"
 	                ));
 	                cfg.setAllowedMethods(Collections.singletonList("*"));
 	                cfg.setAllowCredentials(true);
