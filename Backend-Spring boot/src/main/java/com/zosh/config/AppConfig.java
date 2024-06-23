@@ -90,8 +90,13 @@ public class AppConfig {
 	                    "http://localhost:5173",
 			    "http://localhost:5174",
 	                    "http://localhost:4200",
+<<<<<<< HEAD
 			   "https://cryptosphere-umber.vercel.app",
 			    "http://crypto-sphere.s3-website.eu-north-1.amazonaws.com"
+=======
+							"https://cryptosphere-umber.vercel.app",
+							"http://crypto-sphere.s3-website.eu-north-1.amazonaws.com"
+>>>>>>> docker file for deployment on
 	                ));
 	                cfg.setAllowedMethods(Collections.singletonList("*"));
 	                cfg.setAllowCredentials(true);
